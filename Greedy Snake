@@ -411,6 +411,7 @@ void start()
         	initSnake();
         	initFood();
         	tempD = RIGHT;
+		length = 3;
         	}
 		usleep(10000000 / SPEED);
 		}  //while  end
